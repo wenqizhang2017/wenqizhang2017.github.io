@@ -64,7 +64,7 @@ education:
   - area: M.Eng. Heating, Ventilating and Air Conditioning Engineering
     institution: Southwest Jiaotong University
     date_start: 2022-09-01
-    date_end: 2025-6-31
+    date_end: 2025-6-30
     summary: |
       GPA: 3.8/4.0
 
@@ -75,7 +75,7 @@ education:
   - area: B.Eng. Building Environment and Energy Application Engineering
     institution: Chongqing University of Science and Technology
     date_start: 2017-09-01
-    date_end: 2021-06-31
+    date_end: 2021-06-30
     summary: |
       GPA: 3.4/4.0
       
