@@ -64,7 +64,7 @@ education:
   - area: M.Eng. Heating, Ventilating and Air Conditioning Engineering
     institution: Southwest Jiaotong University
     date_start: 2022-09-01
-    date_end: 2025-6-30
+    date_end: 2025-06-30
     summary: |
       GPA: 3.8/4.0
 
