@@ -4,34 +4,15 @@
   color: #000000 !important;
 }
 
-/* ✅ 强制覆盖作者页所有字体为黑色（包括 About Me / Interests / Education）*/
-#profile, 
-#profile *, 
-#profile .prose *,
-#profile .text-sm,
-#profile .text-muted,
-#profile time,
-#profile .interests *,
-#profile .education *,
-#profile .education time,
-#profile .education .text-muted {
-  color: #000000 !important;
-}
-
-/* 可选：让 Awards / Languages / Skills 也变黑 */
-#profile .skills *,
-#profile .awards *,
-#profile .languages * {
-  color: #000000 !important;
-}
-
-/* 命中 About Me 区块中所有文字 */
+/* ✅ 1. 彻底让 About Me 模块字体变黑 */
 #section-resume-biography-3,
 #section-resume-biography-3 * {
   color: #000 !important;
 }
-/* 🛡️ 让 Download CV 按钮保持原色（白色/灰色），不被黑色覆盖 */
-#section-resume-biography-3 a.inline-flex {
+
+/* ✅ 2. 保持 Download CV 按钮颜色为默认（白色/灰色） */
+#section-resume-biography-3 a.inline-flex,
+#section-resume-biography-3 a.inline-flex * {
   color: inherit !important;
-  fill: inherit !important;
 }
+
