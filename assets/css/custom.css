@@ -1,19 +1,5 @@
-/* 统一设置作者主页所有文字颜色为黑色 */
-#profile {
-  color: #000 !important;
-}
-
-/* 避免 Tailwind 的 text-slate-* 样式覆盖 */
-#profile h1,
-#profile h2,
-#profile h3,
-#profile h4,
-#profile h5,
-#profile h6,
-#profile p,
-#profile li,
-#profile span,
-#profile strong,
-#profile em {
+/* 强制将作者页所有文字设为黑色 */
+#profile,
+#profile * {
   color: #000 !important;
 }
