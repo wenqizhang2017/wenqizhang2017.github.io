@@ -14,8 +14,8 @@
 /* ✅ 恢复 Download CV 按钮颜色为原样 */
 #section-resume-biography-3 a.inline-flex,
 #section-resume-biography-3 a.inline-flex * {
-  color: #1f2937 !important;  /* 恢复为 text-gray-900 */
-  fill: #1f2937 !important;
+  color: #c4ccd6 !important;  /* 恢复为 text-gray-900 */
+  fill: #c4ccd6 !important;
 }
 
 /* ✅ 深色模式兼容按钮颜色 */
