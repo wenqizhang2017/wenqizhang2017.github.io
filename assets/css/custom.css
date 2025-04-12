@@ -1,4 +1,5 @@
-/* 设置作者简介页面的字体颜色为黑色 */
-.author-profile {
+/* 彻底将作者页面文字颜色设置为黑色 */
+#profile,
+#profile * {
   color: #000000 !important;
 }
