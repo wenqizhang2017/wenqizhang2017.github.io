@@ -26,63 +26,8 @@
   }
 }
 
-/* ✅ About Me / Biography - 重点介绍模块，适合全宽展示 */
-#section-resume-biography-3 {
-  max-width: 100% !important;
-  width: 100% !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin: 0 auto;
-}
-#section-resume-biography-3 .prose {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-
-/* ✅ Markdown（通用补充内容） - 推荐稍微收窄 */
-#section-markdown {
-  max-width: 90% !important;
-  margin: 0 auto;
-}
-#section-markdown .prose {
-  max-width: 800px !important;
-  width: 100% !important;
-}
-
-/* ✅ Papers（论文成果） - 信息较密集，建议 80% 宽度 */
-#section-papers {
-  max-width: 80% !important;
-  margin: 0 auto;
-}
-#section-papers .blox-collection {
-  max-width: 100% !important;
-}
-
-/* ✅ Projects / Collection（项目/成果展示） - 可适当放宽 */
-#section-collection {
-  max-width: 85% !important;
-  margin: 0 auto;
-}
-#section-collection .blox-collection {
-  max-width: 100% !important;
-}
-
-/* ✅ Talks（演讲） - 结构相似于 papers，可复用 */
-#section-talks {
-  max-width: 80% !important;
-  margin: 0 auto;
-}
-#section-talks .blox-collection {
-  max-width: 100% !important;
-}
-
-/* ✅ News（动态） - 为突出条理，建议控制在 75% */
-#section-news {
-  max-width: 75% !important;
-  margin: 0 auto;
-}
-#section-news .blox-collection {
-  max-width: 100% !important;
+#section-resume-biography-3 .max-w-prose {
+  max-width: 80ch !important;
 }
 
 
