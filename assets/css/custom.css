@@ -1,0 +1,10 @@
+/* 隐藏 stacked-peaks.svg 背景图 */
+img[src*="stacked-peaks.svg"],
+.hero-bg,
+.landing-bg,
+svg[class*="background"],
+svg[class*="wave"],
+svg[class*="peaks"],
+svg[class*="shape"] {
+  display: none !important;
+}
