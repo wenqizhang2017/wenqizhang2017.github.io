@@ -32,5 +32,8 @@
   width: 100% !important;
 }
 
+#section-resume-biography-3 .grid {
+  grid-template-columns: 30% 70% !important;
+}
 
 
