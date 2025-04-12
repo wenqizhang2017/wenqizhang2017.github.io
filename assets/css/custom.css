@@ -26,6 +26,32 @@
   }
 }
 
+/* ✅ 放宽所有内容模块（About Me、Papers、Talks 等）宽度 */
+#section-resume-biography-3 .max-w-prose,
+#section-markdown .max-w-prose,
+#papers .max-w-prose,
+#section-collection .max-w-prose,
+#talks .max-w-prose,
+#news .max-w-prose,
+
+#section-resume-biography-3 .blox-collection,
+#section-markdown .blox-collection,
+#papers .blox-collection,
+#section-collection .blox-collection,
+#talks .blox-collection,
+#news .blox-collection,
+
+#section-resume-biography-3 .container,
+#section-markdown .container,
+#papers .container,
+#section-collection .container,
+#talks .container,
+#news .container {
+  max-width: 90% !important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
