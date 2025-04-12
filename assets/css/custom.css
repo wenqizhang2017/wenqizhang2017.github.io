@@ -26,8 +26,21 @@
   }
 }
 
+/* 1️⃣ 放宽右侧区域最大宽度 */
 #section-resume-biography-3 .max-w-prose {
-  max-width: 160ch !important;
+  max-width: 100ch !important;
+  width: 100% !important;
+}
+
+/* 2️⃣ 放宽 About Me 文本宽度 */
+#section-resume-biography-3 .prose {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* 3️⃣ 可选：调整 Interests 和 Education 之间的距离 */
+#section-resume-biography-3 .grid {
+  gap: 2rem !important;
 }
 
 
