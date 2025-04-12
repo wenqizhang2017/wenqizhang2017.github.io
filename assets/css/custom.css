@@ -4,16 +4,27 @@
   color: #000000 !important;
 }
 
-/* ✅ 1. 彻底让 About Me 模块字体变黑 */
+/* ✅ 让 About Me 全部字体变黑 */
 #section-resume-biography-3,
 #section-resume-biography-3 * {
   color: #000 !important;
+  fill: #000 !important;
 }
 
-/* ✅ 2. 保持 Download CV 按钮颜色为默认（白色/灰色） */
+/* ✅ 恢复 Download CV 按钮颜色为原样 */
 #section-resume-biography-3 a.inline-flex,
 #section-resume-biography-3 a.inline-flex * {
-  color: inherit !important;
-  fill: inherit !important;
+  color: #1f2937 !important;  /* 恢复为 text-gray-900 */
+  fill: #1f2937 !important;
 }
+
+/* ✅ 深色模式兼容按钮颜色 */
+@media (prefers-color-scheme: dark) {
+  #section-resume-biography-3 a.inline-flex,
+  #section-resume-biography-3 a.inline-flex * {
+    color: #d1d5db !important; /* dark:text-gray-300 */
+    fill: #d1d5db !important;
+  }
+}
+
 
