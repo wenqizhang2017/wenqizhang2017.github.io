@@ -16,7 +16,6 @@
 #profile .education time,
 #profile .education .text-muted {
   color: #000000 !important;
-  fill: #000000 !important;
 }
 
 /* 可选：让 Awards / Languages / Skills 也变黑 */
@@ -24,7 +23,6 @@
 #profile .awards *,
 #profile .languages * {
   color: #000000 !important;
-  fill: #000000 !important;
 }
 
 /* 命中 About Me 区块中所有文字 */
