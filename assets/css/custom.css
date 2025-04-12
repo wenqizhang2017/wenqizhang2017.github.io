@@ -14,5 +14,6 @@
 #section-resume-biography-3 a.inline-flex,
 #section-resume-biography-3 a.inline-flex * {
   color: inherit !important;
+  fill: inherit !important;
 }
 
