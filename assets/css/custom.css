@@ -3,3 +3,9 @@
 #profile * {
   color: #000000 !important;
 }
+
+/* 将 About Me 段落文字和标题统一改为黑色 */
+#profile .prose,
+#profile .prose * {
+  color: #000 !important;
+}
