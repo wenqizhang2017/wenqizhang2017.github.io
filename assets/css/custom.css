@@ -28,7 +28,7 @@
 
 /* ✅ 放宽右侧整体区域（About Me + Interests + Education） */
 #section-resume-biography-3 .max-w-prose {
-  max-width: 100% !important;
+  max-width: 80% !important;
   width: 100% !important;
 }
 
