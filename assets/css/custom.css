@@ -43,5 +43,10 @@
   gap: 1rem !important;
 }
 
+#section-resume-biography-3 .interests {
+  max-width: 250px;
+  width: 100%;
+}
+
 
 
