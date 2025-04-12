@@ -4,8 +4,25 @@
   color: #000000 !important;
 }
 
-/* 将 About Me 段落文字和标题统一改为黑色 */
-#profile .prose,
-#profile .prose * {
-  color: #000 !important;
+/* ✅ 强制覆盖作者页所有字体为黑色（包括 About Me / Interests / Education）*/
+#profile, 
+#profile *, 
+#profile .prose *,
+#profile .text-sm,
+#profile .text-muted,
+#profile time,
+#profile .interests *,
+#profile .education *,
+#profile .education time,
+#profile .education .text-muted {
+  color: #000000 !important;
+  fill: #000000 !important;
+}
+
+/* 可选：让 Awards / Languages / Skills 也变黑 */
+#profile .skills *,
+#profile .awards *,
+#profile .languages * {
+  color: #000000 !important;
+  fill: #000000 !important;
 }
