@@ -30,3 +30,9 @@
 #section-resume-biography-3 * {
   color: #000 !important;
 }
+/* ❗ 例外处理：让按钮文字仍然保持白色 */
+#section-resume-biography-3 .button,
+#section-resume-biography-3 .btn,
+#section-resume-biography-3 .blox-button {
+  color: #fff !important;
+}
