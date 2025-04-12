@@ -26,3 +26,9 @@
   color: #000000 !important;
   fill: #000000 !important;
 }
+
+/* 命中 About Me 区块中所有文字 */
+#section-resume-biography-3,
+#section-resume-biography-3 * {
+  color: #000 !important;
+}
