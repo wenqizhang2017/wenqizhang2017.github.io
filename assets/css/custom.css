@@ -40,7 +40,7 @@
 
 /* 3️⃣ 可选：调整 Interests 和 Education 之间的距离 */
 #section-resume-biography-3 .grid {
-  gap: 2rem !important;
+  gap: 1rem !important;
 }
 
 
