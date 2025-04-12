@@ -1,5 +1,27 @@
-/* 强制将作者页所有文字设为黑色 */
+/* 一刀切：作者页中所有文本强制黑色 */
 #profile,
 #profile * {
+  color: #000 !important;
+}
+
+/* 特别补丁：教育模块的时间标签等灰字（如 2022–2025） */
+#profile .text-muted,
+#profile time,
+#profile .text-sm {
+  color: #000 !important;
+}
+
+/* Interests 标签（通常是 li 标签+灰色图标） */
+#profile ul li,
+#profile ul li span,
+#profile .interests li,
+#profile .interests li i {
+  color: #000 !important;
+  fill: #000 !important;
+}
+
+/* About Me 段落内容 */
+#profile .prose p,
+#profile .prose {
   color: #000 !important;
 }
