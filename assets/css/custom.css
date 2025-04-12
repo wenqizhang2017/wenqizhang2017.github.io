@@ -1,10 +1,19 @@
-/* 隐藏 stacked-peaks.svg 背景图 */
-img[src*="stacked-peaks.svg"],
-.hero-bg,
-.landing-bg,
-svg[class*="background"],
-svg[class*="wave"],
-svg[class*="peaks"],
-svg[class*="shape"] {
-  display: none !important;
+/* 统一设置作者主页所有文字颜色为黑色 */
+#profile {
+  color: #000 !important;
+}
+
+/* 避免 Tailwind 的 text-slate-* 样式覆盖 */
+#profile h1,
+#profile h2,
+#profile h3,
+#profile h4,
+#profile h5,
+#profile h6,
+#profile p,
+#profile li,
+#profile span,
+#profile strong,
+#profile em {
+  color: #000 !important;
 }
