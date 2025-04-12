@@ -30,9 +30,8 @@
 #section-resume-biography-3 * {
   color: #000 !important;
 }
-/* ❗ 例外处理：让按钮文字仍然保持白色 */
-#section-resume-biography-3 .button,
-#section-resume-biography-3 .btn,
-#section-resume-biography-3 .blox-button {
-  color: #fff !important;
+/* 🛡️ 让 Download CV 按钮保持原色（白色/灰色），不被黑色覆盖 */
+#section-resume-biography-3 a.inline-flex {
+  color: inherit !important;
+  fill: inherit !important;
 }
