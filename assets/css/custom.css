@@ -26,12 +26,19 @@
   }
 }
 
-/* 1️⃣ 放宽右侧区域最大宽度 */
+/* ✅ 放宽右侧整体区域（About Me + Interests + Education） */
 #section-resume-biography-3 .max-w-prose {
-  max-width: 80ch !important;
+  max-width: 100% !important;
   width: 100% !important;
 }
 
+/* ✅ About Me 段落宽度不再被限制 */
+#section-resume-biography-3 .prose {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* ✅ Interests 与 Education 左右 40/60 分布 */
 #section-resume-biography-3 .grid {
   grid-template-columns: 40% 60% !important;
 }
