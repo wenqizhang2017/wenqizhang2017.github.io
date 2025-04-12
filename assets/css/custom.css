@@ -47,7 +47,7 @@
 #section-collection .container,
 #talks .container,
 #news .container {
-  max-width: 90% !important;
+  max-width: 70% !important;
   width: 100% !important;
   margin-left: auto;
   margin-right: auto;
