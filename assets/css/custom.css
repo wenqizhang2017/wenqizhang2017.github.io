@@ -26,5 +26,16 @@
   }
 }
 
+/* ✅ Education timeline: show degree and institution on their own full lines */
+#section-resume-experience .education-entry-details {
+  width: 100%;
+}
+
+#section-resume-experience .education-entry-degree,
+#section-resume-experience .education-entry-school {
+  display: block;
+  width: 100%;
+}
+
 
 
