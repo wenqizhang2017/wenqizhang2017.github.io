@@ -1,30 +1,22 @@
-/* 彻底将作者页面文字颜色设置为黑色 */
+/* Keep biography text readable on the light hero card. */
 #profile,
-#profile * {
-  color: #000000 !important;
-}
-
-/* ✅ 让 About Me 全部字体变黑 */
+#profile *,
 #section-resume-biography-3,
 #section-resume-biography-3 * {
-  color: #000 !important;
+  color: #111827 !important;
 }
 
-/* ✅ 恢复 Download CV 按钮颜色为原样 */
+/* Preserve the intended contrast of the CV download button. */
 #section-resume-biography-3 a.inline-flex,
 #section-resume-biography-3 a.inline-flex * {
-  color: #c4ccd6 !important;  /* 恢复为 text-gray-900 */
+  color: #c4ccd6 !important;
   fill: #c4ccd6 !important;
 }
 
-/* ✅ 深色模式兼容按钮颜色 */
 @media (prefers-color-scheme: dark) {
   #section-resume-biography-3 a.inline-flex,
   #section-resume-biography-3 a.inline-flex * {
-    color: #d1d5db !important; /* dark:text-gray-300 */
+    color: #d1d5db !important;
     fill: #d1d5db !important;
   }
 }
-
-
-
